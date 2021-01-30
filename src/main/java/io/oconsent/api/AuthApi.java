@@ -6,12 +6,6 @@
 package io.oconsent.api;
 
 import io.oconsent.model.Error;
-import io.oconsent.model.Body2;
-import io.oconsent.model.Body3;
-import io.oconsent.model.Body4;
-import io.oconsent.model.Body5;
-import io.oconsent.model.NewUsersPermissionsUser;
-import io.oconsent.model.UsersPermissionsUser;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.enums.ParameterIn;
@@ -28,7 +22,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.validation.Valid;
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2021-01-30T08:49:14.744Z[GMT]")
 public interface AuthApi {
 
     @Operation(summary = "", description = "Validate a user account", security = {

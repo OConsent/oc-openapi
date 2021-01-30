@@ -14,7 +14,6 @@ import javax.validation.constraints.*;
  * NewOcFingerprints
  */
 @Validated
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2021-01-30T08:49:14.744Z[GMT]")
 
 
 public class NewOcFingerprints   {

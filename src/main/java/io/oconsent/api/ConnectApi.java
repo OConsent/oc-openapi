@@ -5,7 +5,6 @@
  */
 package io.oconsent.api;
 
-import io.oconsent.model.Body1;
 import io.oconsent.model.Error;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
@@ -17,7 +16,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2021-01-30T08:49:14.744Z[GMT]")
 public interface ConnectApi {
 
     @Operation(summary = "", description = "Connect a provider", security = {

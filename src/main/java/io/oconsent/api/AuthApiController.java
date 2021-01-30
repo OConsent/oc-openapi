@@ -1,11 +1,5 @@
 package io.oconsent.api;
 
-import io.oconsent.model.Body2;
-import io.oconsent.model.Body3;
-import io.oconsent.model.Body4;
-import io.oconsent.model.Body5;
-import io.oconsent.model.NewUsersPermissionsUser;
-import io.oconsent.model.UsersPermissionsUser;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.enums.ParameterIn;
@@ -22,7 +16,6 @@ import javax.validation.Valid;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2021-01-30T08:49:14.744Z[GMT]")
 @RestController
 public class AuthApiController implements AuthApi {
 
